@@ -1,0 +1,31 @@
+.img-wrapper2 {
+  display: flex;
+  align-items: center;
+  height: 220px;
+  margin-top: -15px;
+}
+
+.img4,
+.img5,
+.img6 {
+  flex: 1;
+  height: 100%;
+}
+
+.img5 {
+  margin-left: 20px;
+}
+.img6 {
+  margin-left: 20px;
+}
+
+.img4 {
+  margin-left: 30px;
+  width: 710px;
+  height: 100%;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}

@@ -1,0 +1,87 @@
+.box {
+  display: flex;
+}
+
+.box1 {
+  width: 40%;
+  height: 314px;
+  background-color: #ecf3e8;
+  position: relative;
+}
+.spring {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+.text {
+  font-size: 48px;
+  line-height: 100px;
+  color: #835d8c;
+  font-weight: 300;
+  font-family: "Baloo Chettan 2";
+}
+
+.box2 {
+  width: 30%;
+  height: 314px;
+
+  position: relative;
+  background-color: #f1e5e5;
+}
+.summer {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+.text2 {
+  font-size: 48px;
+  line-height: 100px;
+  color: #e84f88;
+  font-weight: 700;
+  font-family: "Baloo Chettan 2";
+}
+
+.box3 {
+  width: 30%;
+  height: 314px;
+  background-color: #f6f3e6;
+  position: relative;
+}
+.autumn {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+.text3 {
+  font-size: 48px;
+  line-height: 100px;
+  color: #835d8c;
+  font-weight: 300;
+  font-family: "Baloo Chettan 2";
+}
+
+.box4 {
+  width: 40%;
+  height: 314px;
+  background-color: #ecf4f5;
+  position: relative;
+}
+
+.winter {
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
+}
+
+.text4 {
+  font-size: 48px;
+  line-height: 100px;
+  color: #835d8c;
+  font-weight: 300;
+  font-family:"Baloo Chettan 2";
+  position: relative;
+  right: 40%;
+}

@@ -1,0 +1,36 @@
+.img-wrapper3 {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  margin-top: 80px;
+}
+
+.img7 {
+  margin-left: -18px;
+  height: 100%;
+}
+
+.img8 {
+    position: relative;
+    margin-left: -80px;
+    margin-top: 30px;
+    left: -8%;
+}
+
+.img9 {
+    position: relative;
+    left: 2.3%;
+    top: 8px;
+}
+
+.img10 {
+    position: relative;
+    left: 14%;
+    top: -2px;
+}
+
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}

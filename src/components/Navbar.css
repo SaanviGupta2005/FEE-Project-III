@@ -1,0 +1,65 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  padding-top: 20px;
+}
+
+header {
+  top: 0;
+  z-index: 999;
+  background:none;
+}
+
+.icon,
+.Trends,
+.collections,
+.designers {
+  margin-left: 20px;
+  position: relative;
+  left: 30px;
+}
+
+.nav-search {
+    display: flex;
+}
+
+.search-icon {
+  margin-left: 8px;
+}
+
+.search-input {
+  margin-left: 680px;
+  width: 70px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.bucket {
+  margin-left: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  border-bottom: 1px solid black;
+}
+
+
+.avatar{
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    top: -5px;
+    position: relative;
+}
+
+.ham{
+    width: 20px;
+    height: 20px;
+    
+}

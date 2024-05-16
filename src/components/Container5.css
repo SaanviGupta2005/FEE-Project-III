@@ -1,0 +1,17 @@
+.box5 > button {
+  margin-top: 60px;
+  border: 2px solid #f9f9f8;
+  height: 90px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  width: 1200px;
+  background-color: #eaeae8;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 100px;
+  color: #e84f88;
+  font-weight: 700;
+  font-family: "Karla";
+  cursor: pointer;
+}
