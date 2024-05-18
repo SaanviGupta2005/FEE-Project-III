@@ -6,7 +6,7 @@ const Container6 = () => {
   return (
     <div id="container6" className='div6'>
       <div className="model">
-        <ImageComponent imageUrl="src/assets/model.png" alt="img4" className="img11" />
+        <ImageComponent imageUrl="src/assets/images/model.png" alt="img4" className="img11" />
       </div>
       <div className="text">
         <p className="heading">

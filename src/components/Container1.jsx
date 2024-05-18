@@ -22,13 +22,13 @@ const Container1 = () => {
                 <div className="carousel">
                 <Slider {...settings}>
                     <div>
-                        <img src="src\assets\main picture.png" alt="Slide 1" />
+                        <img src="src\assets\images\main picture.png" alt="Slide 1" />
                     </div>
                     <div>
-                        <img src="src\assets\model2.png" alt="Slide 2" />
+                        <img src="src\assets\images\model2.png" alt="Slide 2" />
                     </div>
                     <div>
-                        <img src="src\assets\model3.png" alt="Slide 3" />
+                        <img src="src\assets\images\model3.png" alt="Slide 3" />
                     </div>
                 </Slider>
             </div>

@@ -15,13 +15,13 @@ const Carousel = () => {
     return (
         <Slider {...settings}>
             <div>
-                <img src="src\assets\main picture.png" alt="Slide 1" />
+                <img src="src\assets\images\main picture.png" alt="Slide 1" />
             </div>
             <div>
-                <img src="src\assets\model.png" alt="Slide 2" />
+                <img src="src\assets\images\model.png" alt="Slide 2" />
             </div>
             <div>
-                <img src="src\assets\picture 10.png" alt="Slide 3" />
+                <img src="src\assets\images\picture 10.png" alt="Slide 3" />
             </div>
         </Slider>
     );

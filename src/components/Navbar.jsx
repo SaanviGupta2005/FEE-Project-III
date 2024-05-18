@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
-
 const Navbar = () => {
   return (
     <header>
       <div className="navbar">
         <div className="icon border">
-          <img className='ham' src="src/assets/hamburger.png" alt="hamburger menu" />
+          <img className='ham' src="src\assets\images\hamburger.png" alt="hamburger menu" />
         </div>
         <div className="Trends border">
           <Link to="container6" smooth={true} duration={500} className="nav-link">TRENDS</Link>
@@ -28,7 +27,7 @@ const Navbar = () => {
           <i className="fa-solid fa-bucket" />
         </div>
         <div className='avatar'>
-          <img className="avatar" src="src/assets/avatar.png" alt="avatar" />
+          <img className="avatar" src="src\assets\images\avatar.png" alt="avatar" />
         </div>
       </div>
     </header>

@@ -1,5 +1,4 @@
 import React from 'react';
-
 const ImageComponent = ({ className, imageUrl, alt }) => {
     return (
       <div className='img-container'>

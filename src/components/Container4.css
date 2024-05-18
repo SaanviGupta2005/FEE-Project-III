@@ -34,3 +34,36 @@
   position: relative;
   display: inline-block;
 }
+
+@media only screen and (max-width: 600px) {
+.img-wrapper3{
+  display: grid;
+    align-items: center;
+    height: fit-content;
+    margin-top: 34px;
+    grid-template-columns: auto auto;
+}
+.img8{
+  position: relative;
+        margin-left: -21px;
+        margin-top: 30px;
+        left: 79%;
+        width: 340px;
+}
+
+.img7{
+  position: relative;
+        margin-top: -13px;
+        left: 27%;
+        width: 594px;
+}
+.img10{
+  display: none;
+}
+.img9{
+  position: relative;
+    left: 69.3%;
+    top: 20px;
+    width: 581px;
+}
+}

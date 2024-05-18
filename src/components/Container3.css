@@ -29,3 +29,21 @@
   position: relative;
   display: inline-block;
 }
+
+
+@media only screen and (max-width: 600px) {
+.img-wrapper2{
+    margin-top: -58px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+}
+.img5 , .img6{
+  display: none;
+}
+.img4{
+  margin-left: 49%;
+    width: 800px;
+    height: 100%;
+}
+}

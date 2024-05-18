@@ -120,3 +120,93 @@
   color: rgb(62, 62, 62);
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  
+.foo{
+    border: 0px solid grey;
+    width: 1309px;
+    height: 200px;
+    background-color: #f4f4f4;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.back{
+  display: flex;
+    justify-content: space-evenly;
+    font-family: "Courier New", Courier, monospace;
+    cursor: pointer;
+    position: relative;
+    top: 39%;
+    font-size: 25px;
+}
+.about {
+  position: absolute;
+  left: 14.5%;
+  top: 576%;
+  font-family: "Baloo Chettan 2";
+  font-weight: 500;
+  color: #919191;
+  text-decoration: none;
+}
+.contact {
+  position: absolute;
+  left: 22%;
+  top: 576%;
+  font-family: "Baloo Chettan 2";
+  font-weight: 500;
+  color: #919191;
+  text-decoration: none;
+}
+.owners{
+  display: none;
+}
+.subscribe-btn{
+  background-color: #e84f88;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 22px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    top: 85px;
+    left: 82%;
+    width: 201px;
+    height: 37px;
+}
+.user-textbox{
+  border: 2px solid whitesmoke;
+    position: relative;
+    left: 61%;
+    top: 126px;
+    color: #919191;
+    height: 34px;
+    width: 243px;
+}
+.media{
+  position: relative;
+    display: flex;
+    color: gray;
+    top: 5px;
+    font-size: 28px;
+}
+.twitter{
+  position: relative;
+    left: 85%;
+    top: -13px;
+    color: #919191;
+}
+.facebook{
+  position: relative;
+    left: 94%;
+    top: -13px;
+    color: #919191;
+}
+.pinterest{
+  position: relative;
+    left: 86.7%;
+    top: -13px;
+    color: #919191;
+}
+}

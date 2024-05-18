@@ -1,87 +1,90 @@
 .box {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.box1, .box2, .box3, .box4 {
+  width: 25%;
+  height: 314px;
+  position: relative;
+}
+
+.spring, .summer, .autumn, .winter {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+
+.text, .text2, .text3, .text4 {
+  font-size: 48px;
+  line-height: 100px;
+  font-family: "Baloo Chettan 2";
 }
 
 .box1 {
-  width: 40%;
-  height: 314px;
   background-color: #ecf3e8;
-  position: relative;
-}
-.spring {
-  position: absolute;
-  bottom: 20px;
-  right: 50px;
 }
 
 .text {
-  font-size: 48px;
-  line-height: 100px;
   color: #835d8c;
   font-weight: 300;
-  font-family: "Baloo Chettan 2";
 }
 
 .box2 {
-  width: 30%;
-  height: 314px;
-
-  position: relative;
   background-color: #f1e5e5;
-}
-.summer {
-  position: absolute;
-  bottom: 20px;
-  right: 50px;
 }
 
 .text2 {
-  font-size: 48px;
-  line-height: 100px;
   color: #e84f88;
   font-weight: 700;
-  font-family: "Baloo Chettan 2";
 }
 
 .box3 {
-  width: 30%;
-  height: 314px;
   background-color: #f6f3e6;
-  position: relative;
-}
-.autumn {
-  position: absolute;
-  bottom: 20px;
-  right: 50px;
 }
 
 .text3 {
-  font-size: 48px;
-  line-height: 100px;
   color: #835d8c;
   font-weight: 300;
-  font-family: "Baloo Chettan 2";
 }
 
 .box4 {
-  width: 40%;
-  height: 314px;
   background-color: #ecf4f5;
-  position: relative;
-}
-
-.winter {
-  position: absolute;
-  bottom: 20px;
-  right: 100px;
 }
 
 .text4 {
-  font-size: 48px;
-  line-height: 100px;
   color: #835d8c;
   font-weight: 300;
-  font-family:"Baloo Chettan 2";
-  position: relative;
-  right: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box1, .box2, .box3, .box4 {
+    width:1313px;
+    height: 164px;
+  }
+
+  .spring, .summer, .autumn, .winter {
+    right: 43%;
+  }
+
+  .text, .text2, .text3, .text4 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    left: 7%;
+    top: 6%;
+  }
+  .text2,.text3 {
+    left: 17%;
+  }
+  .text4{
+    left: 4%;
+  }
 }

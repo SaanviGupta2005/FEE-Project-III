@@ -1,5 +1,5 @@
 .main{
-    background-image: url('src/assets/hero.png');
+    background-image: url('src/assets/images/hero.png');
     margin: 0px;
     background-repeat: no-repeat;
     height: 700px;
@@ -25,3 +25,40 @@
     width: 60%;
 }
 
+@media only screen and (max-width:600px) {
+  .main{
+    background-image: url('src/assets/images/hero.png');
+    margin: 0px;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: auto;
+    width: 1313px;
+    overflow-x: hidden;
+}
+    .carousel {
+        position: relative;
+        margin-top: 0%;
+        margin-left: 310px;
+        width: 129%;
+        left: 55px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .newlooks {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-size: 140px;
+        line-height: 105px;
+        color: #e84f88;
+        margin-top: -40%;
+        margin-left: 193px;
+        font-family: "Karla";
+        font-weight: 300;
+    }
+
+    
+}

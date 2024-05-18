@@ -31,3 +31,15 @@
   height: 300px;
   width: auto; 
 }
+
+@media only screen and (max-width: 600px) {
+  .img1, .img3{
+    display: none;
+  }
+  .img2{
+    margin-top: 60px;
+    width: auto;
+    position: relative;
+    left: 40%;
+  }
+}
