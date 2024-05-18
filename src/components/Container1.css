@@ -2,7 +2,7 @@
     background-image: url('src/assets/hero.png');
     margin: 0px;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 700px;
 }
 
 .newlooks {
@@ -20,7 +20,7 @@
 
 .carousel{
   position: relative;
-    margin-top: -3%;
+    margin-top: 0%;
     margin-left: 310px;
     width: 60%;
 }

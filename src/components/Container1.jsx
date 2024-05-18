@@ -11,11 +11,13 @@ const Container1 = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500
     };
     return (
         <>
-            <div className='main'>
+            <div id="container1" className='main'>
                 <Navbar />
                 <div className="carousel">
                 <Slider {...settings}>
@@ -23,10 +25,10 @@ const Container1 = () => {
                         <img src="src\assets\main picture.png" alt="Slide 1" />
                     </div>
                     <div>
-                        <img src="src\assets\main picture.png" alt="Slide 2" />
+                        <img src="src\assets\model2.png" alt="Slide 2" />
                     </div>
                     <div>
-                        <img src="src\assets\main picture.png" alt="Slide 3" />
+                        <img src="src\assets\model3.png" alt="Slide 3" />
                     </div>
                 </Slider>
             </div>
