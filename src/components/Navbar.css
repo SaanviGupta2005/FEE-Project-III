@@ -34,6 +34,7 @@ header {
 
 .search-icon {
   margin-left: 8px;
+  cursor: pointer;
 }
 
 .search-input {
@@ -50,25 +51,30 @@ header {
   margin-left: 30px;
   position: relative;
   left: 28px;
+  cursor: pointer;
 }
 
-.navbar a {
+.nav-link {
   text-decoration: none;
   color: black;
   cursor: pointer;
 }
 
-.navbar a:hover {
+.nav-link:hover {
   border-bottom: 1px solid black;
 }
 
 .avatar {
-  margin-left: 15px;
   width: 40px;
   height: 40px;
   top: 0px;
   position: relative;
-  left: 13px;
+  left: 33px;
+  cursor: pointer;
+}
+
+.avatar:hover{
+  border-bottom:1px solid #0a0a23;
 }
 
 .ham {
