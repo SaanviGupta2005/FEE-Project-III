@@ -1,0 +1,192 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 800px;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2px;
+
+}
+
+.img1 {
+  margin-right: 15px;
+  margin-top: 60px;
+  height: 300px;
+  width: auto;
+}
+
+.img2 {
+  margin-top: 60px;
+  width: auto;
+}
+
+.img3 {
+  margin-right: 25px;
+  margin-top: 29px;
+  height: 300px;
+  width: auto; 
+}
+.img-wrapper2 {
+  display: flex;
+  align-items: center;
+  height: 220px;
+  margin-top: -15px;
+}
+
+.img4,
+.img5,
+.img6 {
+  flex: 1;
+  height: 100%;
+}
+
+.img5 {
+  margin-left: 20px;
+}
+.img6 {
+  margin-left: 20px;
+}
+
+.img4 {
+  margin-left: 30px;
+  width: 710px;
+  height: 100%;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.img-wrapper3 {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  margin-top: 80px;
+}
+
+.img7 {
+  margin-left: -18px;
+  height: 100%;
+}
+
+.img8 {
+    position: relative;
+    margin-left: -80px;
+    margin-top: 30px;
+    left: -8%;
+}
+
+.img9 {
+    position: relative;
+    left: 2.3%;
+    top: 8px;
+}
+
+.img10 {
+    position: relative;
+    left: 14%;
+    top: -2px;
+}
+
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.box5 > button {
+  margin-top: 60px;
+  border: 2px solid #f9f9f8;
+  height: 90px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  width: 1200px;
+  background-color: #eaeae8;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 100px;
+  color: #e84f88;
+  font-weight: 700;
+  font-family: "Karla";
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .img1, .img3{
+    display: none;
+  }
+  .img2{
+    margin-top: 60px;
+    width: auto;
+    position: relative;
+    left: 40%;
+  }
+  .img-wrapper2{
+    margin-top: -58px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+}
+.img5 , .img6{
+  display: none;
+}
+.img4{
+  margin-left: 49%;
+    width: 800px;
+    height: 100%;
+}
+.img-wrapper3{
+  display: grid;
+    align-items: center;
+    height: fit-content;
+    margin-top: 34px;
+    grid-template-columns: auto auto;
+}
+.img8{
+  position: relative;
+        margin-left: -21px;
+        margin-top: 30px;
+        left: 79%;
+        width: 340px;
+}
+
+.img7{
+  position: relative;
+        margin-top: -13px;
+        left: 27%;
+        width: 594px;
+}
+.img10{
+  display: none;
+}
+.img9{
+  position: relative;
+    left: 69.3%;
+    top: 20px;
+    width: 581px;
+}
+.box5 > button{
+    margin-top: 52px;
+    border: 2px solid #f9f9f8;
+    height: 106px;
+    margin-left: 48px;
+    margin-right: 30px;
+    text-align: center;
+    width: 1230px;
+    background-color: #eaeae8;
+    font-size: 42px;
+    letter-spacing: 1px;
+    line-height: 100px;
+    color: #e84f88;
+    font-weight: 700;
+    font-family: "Karla";
+    cursor: pointer;
+}
+}
