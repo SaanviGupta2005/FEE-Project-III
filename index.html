@@ -15,5 +15,16 @@
     <div id="root"></div>
     <script src="https://kit.fontawesome.com/ae353f9b79.js" crossorigin="anonymous"></script>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburgerMenu = document.getElementById("hamburger-menu");
+        const navItems = document.querySelector(".navbar");
+
+        hamburgerMenu.addEventListener("click", function () {
+          navItems.classList.toggle("show");
+        });
+      });
+    </script>
+
   </body>
 </html>

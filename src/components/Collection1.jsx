@@ -1,8 +1,8 @@
 import React from 'react';
-import "./Container2.css";
+import "./Collection1.css";
 import ImageComponent from './ImageComponent';
 
-const Container2 = () => {
+const Collection1 = () => {
   return (
     <div id="container2" className="image-container">
       <div className="img-wrapper">
@@ -14,4 +14,4 @@ const Container2 = () => {
   );
 }
 
-export default Container2;
+export default Collection1;

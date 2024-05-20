@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Container7.css"
+import "./Designers.css"
 import ImageComponent from './ImageComponent'
 
-const Container7 = () => {
+const Designers = () => {
   return (
     <div id='container7'>
       <ImageComponent imageUrl="src/assets/images/sponsor.png" alt="img12" className="img12" />
@@ -10,4 +10,4 @@ const Container7 = () => {
   )
 }
 
-export default Container7
+export default Designers

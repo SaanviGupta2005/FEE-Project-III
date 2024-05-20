@@ -22,6 +22,7 @@
   font-weight: 500;
   color: #919191;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .about {
@@ -98,6 +99,10 @@
   left: 94%;
   top: 576%;
   color: #919191;
+}
+
+.facebook:hover,.pinterest:hover,.twitter:hover{
+  color: #545353;
 }
 
 .pinterest {
@@ -208,5 +213,8 @@
     left: 86.7%;
     top: -13px;
     color: #919191;
+}
+.facebook:hover,.pinterest:hover,.twitter:hover{
+  color: #545353;
 }
 }

@@ -4,10 +4,15 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <header>
-      <div className="navbar">
-        <div className="icon border">
-          <img className='ham' src="src\assets\images\hamburger.png" alt="hamburger menu" />
+      <div className="icon border">
+        <img className='ham' src="src/assets/images/hamburger.png" alt="hamburger menu" />
+        <div class="dropdown-options">
+                <Link to="container6" smooth={true} duration={500} className="nav-link">TRENDS</Link>
+                <Link to="container2" smooth={true} duration={500} className="nav-link">COLLECTIONS</Link>
+                <Link to="container7" smooth={true} duration={500} className="nav-link">DESIGNERS</Link>
+            </div>
         </div>
+      <div className="navbar">  
         <div className="Trends border">
           <Link to="container6" smooth={true} duration={500} className="nav-link">TRENDS</Link>
         </div>
@@ -27,7 +32,7 @@ const Navbar = () => {
           <i className="fa-solid fa-bucket" />
         </div>
         <div className='avatar'>
-          <img className="avatar" src="src\assets\images\avatar.png" alt="avatar" />
+          <Link to="container1" smooth={true} duration={500} className=""><img className="avatar" src="src/assets/images/avatar.png" alt="avatar" /></Link>
         </div>
       </div>
     </header>

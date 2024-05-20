@@ -56,14 +56,16 @@
     top: -3%;
     cursor: pointer;
 }
+.more:hover{
+    background-color: rgb(85, 199, 237);
+    font-size: 14px;
+}
 
 @media only screen and (max-width: 600px) {
 .div6{
     height: fit-content;
         width: 1100px;
         background-color: #eaeae8;
-        /* margin-left: 30px; */
-        /* margin-right: 30px; */
         margin-top: 100px;
         display: flex;
         flex-direction: column;
@@ -117,5 +119,8 @@
     top: -84%;
     cursor: pointer;
     font-size: 18px;
+}
+.more:hover{
+    background-color: rgb(85, 199, 237);
 }
 }

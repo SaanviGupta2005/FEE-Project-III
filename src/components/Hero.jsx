@@ -1,11 +1,11 @@
 import React from 'react'
-import "./Container1.css"
+import "./Hero.css"
 import Navbar from './Navbar'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const Container1 = () => {
+const Hero = () => {
     const settings = {
         dots: true,
         infinite: true,
@@ -46,4 +46,4 @@ const Container1 = () => {
     )
 }
 
-export default Container1
+export default Hero

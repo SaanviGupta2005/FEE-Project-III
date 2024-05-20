@@ -30,22 +30,20 @@
     background-image: url('src/assets/images/hero.png');
     margin: 0px;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 798px;
     background-size: auto;
     width: 1313px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
     .carousel {
         position: relative;
-        margin-top: 0%;
         margin-left: 310px;
         width: 129%;
         left: 55px;
     }
 
-    header {
-        display: none;
-    }
+
 
     .newlooks {
         display: flex;

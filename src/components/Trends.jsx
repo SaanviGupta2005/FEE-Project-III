@@ -1,8 +1,8 @@
 import React from 'react';
-import './Container6.css';
+import './Trends.css';
 import ImageComponent from './ImageComponent';
 
-const Container6 = () => {
+const Trends = () => {
   return (
     <div id="container6" className='div6'>
       <div className="model">
@@ -27,4 +27,4 @@ const Container6 = () => {
   );
 }
 
-export default Container6;
+export default Trends;

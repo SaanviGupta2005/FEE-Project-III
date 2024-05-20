@@ -1,30 +1,25 @@
-import React from 'react'
-import "./Box.css"
+import React from 'react';
+import './Box.css';
+
+const Boxes = ({ season, textClass, boxClass }) => {
+  return (
+    <div className={boxClass}>
+      <div className={season}>
+        <p className={textClass}> {season.toUpperCase()} </p>
+      </div>
+    </div>
+  );
+};
+
 const Box = () => {
   return (
     <div className="box">
-      <div className="box1">
-        <div className="spring">
-          <p className="text">SPRING</p>
-        </div>
-      </div>
-      <div className="box2">
-        <div className="summer">
-          <p className="text2">SUMMER</p>
-        </div>
-      </div>
-      <div className="box3">
-        <div className="autumn">
-          <p className="text3">AUTUMN</p>
-        </div>
-      </div>
-      <div className="box4">
-        <div className="winter">
-          <p className="text4">WINTER</p>
-        </div>
-      </div>
+      <Boxes season="spring" textClass="text" boxClass="box1" />
+      <Boxes season="summer" textClass="text2" boxClass="box2" />
+      <Boxes season="autumn" textClass="text3" boxClass="box3" />
+      <Boxes season="winter" textClass="text4" boxClass="box4" />
     </div>
-  )
-}
+  );
+};
 
-export default Box
+export default Box;

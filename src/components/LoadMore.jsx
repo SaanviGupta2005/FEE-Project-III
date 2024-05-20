@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Container5.css"
-const Container5 = () => {
+import "./LoadMore.css"
+const LoadMore = () => {
   return (
     <div className="box5">
       <button>LOAD MORE CLOTHES</button>
@@ -8,4 +8,4 @@ const Container5 = () => {
   )
 }
 
-export default Container5
+export default LoadMore;

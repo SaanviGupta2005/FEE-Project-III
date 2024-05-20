@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Container8.css"
-const Container8 = () => {
+import "./Contact.css"
+const Contact = () => {
     return (
         <>
             <footer className="foo ">
@@ -27,4 +27,4 @@ const Container8 = () => {
     )
 }
 
-export default Container8
+export default Contact
